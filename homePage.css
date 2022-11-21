@@ -85,8 +85,10 @@ header{
 }
 
 .img-box img{
-    height: 300px;
     border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
 }
 
 .img-box li, a{
@@ -111,6 +113,23 @@ h2{
     margin-top: 100px;
 }
 
-.col-1{
+.column{
     justify-content: center;
+}
+
+@media only screen and (max-width: 600px){
+    .row{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        ;
+    }
+    .name{
+        font-size: 65px;
+    }
+
+    .description{
+        flex-direction: column;
+        gap: 95px;
+    }
 }
