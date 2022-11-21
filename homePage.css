@@ -35,6 +35,18 @@ header{
     padding : 0px 30px;
 }
 
+.hamburger{
+    display: none;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: white;
+}
+
 .intro-wrap{
     font-family: 'Bodoni Moda', serif;
     margin-left: 10%;
@@ -131,5 +143,29 @@ h2{
     .description{
         flex-direction: column;
         gap: 95px;
+    }
+     
+    .hamburger{
+        display: block;
+    }
+
+    .category{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap:0;
+        flex-direction: column;
+        background-color: black;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .item{
+        margin: 16px 0;
+    }
+
+    .item.active{
+        left: 0;
     }
 }
