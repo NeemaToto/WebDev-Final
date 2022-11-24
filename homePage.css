@@ -38,15 +38,15 @@ header{
     text-decoration : none;
 }
 
-.menu-wrap{
-    display: none;
-}
+/* menu hamburger */
+
 
 :root {
-    --primary-color: rgba(0, 0, 0, 0.75);
     --overlay-color: rgba(25, 24, 24, 0.85);
     --menu-speed: 0.75s;
 }
+
+
 
 .container {
     max-width: 960px;
@@ -58,8 +58,8 @@ header{
 .menu-wrap {
     position: fixed;
     top: 0;
-    left: 0;
     z-index: 1;
+    display: none;
 }
 
 .menu-wrap .toggler {
@@ -186,6 +186,7 @@ header{
     text-decoration: none;
     transition: color 0.4s ease;
 }
+
 
 
 /*Main body styles*/
