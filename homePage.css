@@ -18,12 +18,25 @@ header{
     font-family: 'Orbitron', sans-serif;
 }
 
+
+
 .logo{
     cursor : pointer;
     font-size : 24px;
     color : white;
+    font-family: 'Orbitron', sans-serif;
 }
 
+.logo:hover{
+    color: yellow;
+    transition-duration: 0.2s;
+}
+
+.logo:active{
+    color: rgb(175, 175, 0);
+    transition-duration: 0s;
+    transform: translateY(4px);
+}
 .category{
     list-style : none;
 }
@@ -38,8 +51,23 @@ header{
     text-decoration : none;
 }
 
+<<<<<<< HEAD
 /* menu hamburger */
 
+=======
+.navBarLinks:hover{
+    color: yellow;
+    transition-duration: 0.2s;
+}
+.navBarLinks:active, .item:active{
+    color: rgb(175, 175, 0);
+    transition-duration: 0s;
+    transform: translateY(4px);
+}
+.menu-wrap{
+    display: none;
+}
+>>>>>>> 15d5e261e9a5329bce0e94928618b517910974dc
 
 :root {
     --overlay-color: rgba(25, 24, 24, 0.85);
@@ -232,7 +260,6 @@ header{
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: 0.08em; /* Adjust as needed */
     animation: typing 6s forwards;
-      
 }
   
   /* The typing effect */
@@ -296,10 +323,13 @@ header{
     height: auto;
 }
 
-.img-box :hover{
+.img-box:hover{
     box-shadow: 5px 3px 3px rgba(254, 182, 2, 0.594);
 }
 
+.img-box:active{
+    transform: translateY(10px);
+}
 .img-box li, a{
     text-decoration : none;
 }
@@ -319,17 +349,112 @@ h2{
     font-style: bold;
 }
 
-.site-footer {
-    background-color: darkgrey;
-    width: 100%;
-    height: 200px;
-    margin-top: 100px;
-}
-
 .column{
     justify-content: center;
 }
 
+/*Footer*/
+.site-footer {
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    margin-top: 100px;
+    margin-bottom:80px;
+}
+
+.footer-content{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+    
+    
+}
+
+.footer-one {
+   display: flex;
+   flex-direction: column;
+   width: 20%;
+margin-right: -100px;
+}
+
+.logoDescription{
+    
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.footer-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    
+}
+
+.theTeam{
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+	grid-row-gap: 20px;
+    text-align: center;
+}
+.footerTeamNameLinks:hover{
+    color: yellow;
+    transition-duration: 0.3s;
+}
+.footerTeamNameLinks:active{
+    color: rgb(175, 175, 0);
+    transition-duration: 0s;
+    transform: translateY(4px);
+}
+
+.footer-three{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.newsletterDescription{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.emailInput{
+    margin:10px;
+    padding:10px;
+    border:0;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.submitButton{
+    border:none;
+    padding: 10px 30px;
+    background-color:white;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.submitButton:hover{
+    background-color: yellow;
+    transition-duration: 0.2s;
+}
+
+.submitButton:active{
+    background-color: rgb(175, 175, 0);
+    transition-duration: 0s;
+    transform: translateY(4px);
+}
 
 /*Mobile Ver*/
 
