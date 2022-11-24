@@ -51,28 +51,7 @@ header{
     text-decoration : none;
 }
 
-<<<<<<< HEAD
-/* menu hamburger */
-
-=======
-.navBarLinks:hover{
-    color: yellow;
-    transition-duration: 0.2s;
-}
-.navBarLinks:active, .item:active{
-    color: rgb(175, 175, 0);
-    transition-duration: 0s;
-    transform: translateY(4px);
-}
-.menu-wrap{
-    display: none;
-}
->>>>>>> 15d5e261e9a5329bce0e94928618b517910974dc
-
-:root {
-    --overlay-color: rgba(25, 24, 24, 0.85);
-    --menu-speed: 0.75s;
-}
+c
 
 
 
