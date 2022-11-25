@@ -404,7 +404,7 @@ h2 {
 .logoDescription {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 
@@ -427,16 +427,17 @@ h2 {
 .newsletterDescription {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .emailInput {
     margin-top: 10px;
     margin-right: 5px;
     padding: 10px;
-    padding-right: 80px;
+    width: 265px;
     border: 0;
     border-radius: 5px;
+    font-size: 15px;
     font-family: 'Poppins', sans-serif;
 }
 
