@@ -28,12 +28,12 @@ header{
 }
 
 .logo:hover{
-    color: yellow;
+    color: #daa520;
     transition-duration: 0.2s;
 }
 
 .logo:active{
-    color: rgb(175, 175, 0);
+    color: #886714;
     transition-duration: 0s;
     transform: translateY(4px);
 }
@@ -56,11 +56,11 @@ header{
 
 =======
 .navBarLinks:hover{
-    color: yellow;
+    color: #daa520;
     transition-duration: 0.2s;
 }
 .navBarLinks:active, .item:active{
-    color: rgb(175, 175, 0);
+    color: #886714;
     transition-duration: 0s;
     transform: translateY(4px);
 }
