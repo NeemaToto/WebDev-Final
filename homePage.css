@@ -8,7 +8,7 @@ body {
     margin-right: 10%;
 }
 
-/*Nav bar + hamburger*/
+/*Nav bar*/
 header {
     display: flex;
     justify-content: space-between;
@@ -17,8 +17,6 @@ header {
     padding: 30px 10%;
     font-family: 'Orbitron', sans-serif;
 }
-
-
 
 .logo {
     cursor: pointer;
@@ -47,8 +45,7 @@ header {
     padding: 0px 30px;
 }
 
-.li,
-a {
+.li,a {
     color: white;
     text-decoration: none;
 }
@@ -75,8 +72,6 @@ a {
     --overlay-color: rgba(25, 24, 24, 0.85);
     --menu-speed: 0.75s;
 }
-
-
 
 .container {
     max-width: 960px;
@@ -219,7 +214,6 @@ a {
 }
 
 
-
 /*Main body styles*/
 
 .intro-wrap {
@@ -262,18 +256,14 @@ a {
     border-right: .15em solid goldenrod;
     /* The typwriter cursor */
     margin: 0 auto;
-    /* Gives that scrolling effect as the typing happens */
     letter-spacing: 0.08em;
-    /* Adjust as needed */
     animation: typing 6s forwards;
 }
 
-/* The typing effect */
 @keyframes typing {
     from {
         width: 0
     }
-
     to {
         width: 100%
     }
@@ -291,23 +281,12 @@ a {
     width: 60%;
 }
 
-/**.left-column, .right-column{
-    flex-basis: 50%;
-}
-*/
-
-.left-column {
-    flex-basis: 65%;
-    ;
-}
-
 /*Team Section*/
 
 .team {
     margin-top: 60px;
     gap: 100px;
 }
-
 
 .team h1 {
     font-family: 'Poppins', sans-serif;
@@ -317,7 +296,6 @@ a {
     color: transparent;
     -webkit-text-stroke: 1px #fff;
 }
-
 
 .row {
     position: relative;
@@ -329,19 +307,21 @@ a {
     font-family: 'Roboto', sans-serif;
 }
 
+.img-box{
+    margin-bottom: 10px;
+}
+
 .img-box img {
     border-radius: 10px;
     width: 100%;
     max-width: 850px;
     height: auto;
+    transition: transform .2s;
 }
 
 .img-box:hover {
-    box-shadow: 5px 3px 3px rgba(254, 182, 2, 0.594);
-}
-
-.img-box:active {
-    transform: translateY(10px);
+    box-shadow: rgba(246, 210, 3, 0.268) 0px 3px 8px;
+    transform: scale(1.08);
 }
 
 .img-box li,
@@ -364,9 +344,6 @@ h2 {
     font-style: bold;
 }
 
-.column {
-    justify-content: center;
-}
 
 /*Footer*/
 .site-footer {
@@ -404,7 +381,7 @@ h2 {
 .logoDescription {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 
@@ -427,17 +404,16 @@ h2 {
 .newsletterDescription {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .emailInput {
     margin-top: 10px;
     margin-right: 5px;
     padding: 10px;
-    width: 265px;
+    padding-right: 80px;
     border: 0;
     border-radius: 5px;
-    font-size: 15px;
     font-family: 'Poppins', sans-serif;
 }
 
