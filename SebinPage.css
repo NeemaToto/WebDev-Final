@@ -3,9 +3,7 @@
 body{
     background-color: black;
     color: white;
-    margin: 0;
-    margin-left: 10%;
-    margin-right: 10%;
+
 }
 
 /*Nav bar + hamburger*/
@@ -28,12 +26,12 @@ header{
 }
 
 .logo:hover{
-    color: #daa520;
+    color: yellow;
     transition-duration: 0.2s;
 }
 
 .logo:active{
-    color: #886714;
+    color: rgb(175, 175, 0);
     transition-duration: 0s;
     transform: translateY(4px);
 }
@@ -51,16 +49,16 @@ header{
     text-decoration : none;
 }
 
-<<<<<<< HEAD
+
 /* menu hamburger */
 
-=======
+
 .navBarLinks:hover{
-    color: #daa520;
+    color: yellow;
     transition-duration: 0.2s;
 }
 .navBarLinks:active, .item:active{
-    color: #886714;
+    color: rgb(175, 175, 0);
     transition-duration: 0s;
     transform: translateY(4px);
 }
@@ -214,11 +212,31 @@ header{
     transition: color 0.4s ease;
 }
 
+/**Main content*/
+.main{
+    height: auto;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.758),rgba(0, 0, 0, 0.755)), url(benjamin-kaufmann-DCn4KSb2WNE-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    animation: appear 1.8s backwards;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+@keyframes appear{
+    from { width: 0 }
+    to { width: 100% }
+}
 
 .content{
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 10%
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
 }
 
 .content .btn{
@@ -234,12 +252,11 @@ header{
 
 .content h1{
     font-family: 'Poppins', sans-serif;
-    font-size: 3.5vw;
+    font-size: 3vw;
     font-weight: 400;
-    line-height: 130%;
+    line-height: 120%;
     width: 100%;
     color: white;
-    margin-bottom: 1vh;
 }
    
 .wave {
@@ -280,22 +297,315 @@ header{
 
 .content h2{
     font-family: 'Poppins', sans-serif;
-    font-size: 3.5vw;
-    font-weight: 300;
+    font-size: 3vw;
+    font-weight: 500;
     line-height: 95%;
     width: 100%;
     color: white;
-    margin-bottom: vh;
 }
 
 .content p{
     font-family: 'Poppins', sans-serif;
-    font-size: 1.4vw;
+    font-size: 1.2vw;
     font-weight: 300;
     width: 100%;
     color: rgba(255, 255, 255, 0.802);
-    margin-bottom: 4vh;
 }
+
+.edu_hobby{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 6%;
+    margin-bottom: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-col, .mid-col, .right-col{
+    flex-basis: 33.33%;
+}
+
+.profile{
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+}
+
+.left-col h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6vw;
+    font-weight: 500;
+}
+
+.left-col p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9vw;
+    font-weight: 500;
+}
+
+.right-col{
+    text-align: right;
+}
+
+.right-col h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6vw;
+    font-weight: 500;
+}
+
+.right-col p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9vw;
+    font-weight: 500;
+}
+
+.projects{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 15%;
+    display: grid;
+    grid-template:
+    "a b c d" 
+    "e f g h" 
+    ;
+    grid-auto-columns: 1fr;
+    gap: 70px;
+    row-gap: 12%;
+}
+
+
+
+.projectA{
+    grid-area: a;
+}
+
+.projectB{
+    grid-area: b;
+    position: relative;
+}
+
+.projectC{
+    grid-area: c;
+    position: relative;
+}
+
+.projectD{
+    grid-area: d;
+    position: relative;
+}
+
+.projectE{
+    grid-area: e;
+    position: relative;
+}
+
+.projectF{
+    grid-area: f;
+    position: relative;
+}
+
+.projectF{
+    grid-area: g;
+    position: relative;
+}
+
+.projectH{
+    grid-area: h;
+}
+
+
+.project-img{
+    border-radius: 5px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.projectA{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 200;
+    line-height: 120%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.projectH{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 200;
+    line-height: 120%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.projectA h5, p{
+    margin:0;
+}
+
+.projectH h5, p{
+    margin: 0;
+}
+
+.projectB img{
+    filter: grayscale(100%);
+}
+
+.projectB img:hover{
+    filter: none;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.projectC img{
+    filter: grayscale(100%);
+}
+
+.projectC img:hover{
+    filter: none;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.projectD img{
+    filter: grayscale(100%);
+}
+
+.projectD img:hover{
+    filter: none;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.projectE img{
+    filter: grayscale(100%);
+}
+
+.projectE img:hover{
+    filter: none;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.projectF img{
+    filter: grayscale(100%);
+}
+
+.projectF img:hover{
+    filter: none;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.projectG img{
+    filter: grayscale(100%);
+}
+
+.projectG img:hover{
+    filter: none;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/*Footer*/
+.site-footer {
+    background-color: black;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-logo {
+    font-size: 24px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+.footer-one {
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+
+}
+
+.logoDescription {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+.footer-two {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+
+}
+
+.emailAndSubmit {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.newsletterDescription {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.emailInput {
+    margin-top: 10px;
+    margin-right: 5px;
+    padding: 10px;
+    padding-right: 80px;
+    border: 0;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.submitButton {
+    margin-top: 10px;
+    margin-left: 5px;
+    border: none;
+    padding: 10px 30px;
+    background-color: white;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.submitButton:hover {
+    background-color: #daa520;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.submitButton:active {
+    background-color: #886714;
+    transition-duration: 0s;
+    transform: translateY(4px);
+}
+
 
 /*Mobile Ver*/
 
@@ -323,7 +633,42 @@ header{
     .item.active{
         left: 0;
     }
-    .our-partners h3{
-        font-size: 30px;
+
+    .content h1{
+        font-size: 40px;
+    }
+
+    .content h2{
+        font-size: 40px;
+    }
+    
+    .content p{
+        font-size: 25px;
+    }
+
+    .content span{
+        display: none;
+    }
+
+    .edu_hobby{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .edu_hobby p{
+        font-size: 20px;
+    }
+
+    .projects{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projectA{
+        font-size: 20px;
+    }
+    
+    .projectH{
+        font-size: 20px;
     }
 }
