@@ -27,6 +27,7 @@ body{
 .textwrap {
     color: rgb(255, 255, 255);
     position: absolute;
+   margin-bottom: 165%;
 }
 
 
@@ -63,6 +64,11 @@ body{
     animation: hideAnimation 0s ease-in 4.5s;
     animation-fill-mode: forwards;
   }
+
+#lol1 {
+    animation: hideAnimation 0s ease-in 4.5s;
+    animation-fill-mode: backwards;
+}
   
   @keyframes hideAnimation {
     to {
@@ -173,54 +179,61 @@ body{
     }
 }
 
+.intro {
+    width: 37%;
+    animation-name: apppear;
+    animation-duration: 4.6s;
+    margin-top: 13%;
+}
 
+.name {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 57px;
+    color: white;
+    animation-name: apppear;
+    animation-duration: 4.6s;
+}
 
+.titless {
+    margin-top: 5px;
+    color: #daa520;
+    margin-bottom: 0px;
+    font-size: 28px;
+    animation-name: apppear;
+    animation-duration: 4.6s;
+}
 
-
-.home{
-    position: relative;
-    height: 57vh;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 6rem;
-    align-items: center;
+.desc {
+    margin-top: 7px;
+    font-size: 20px;
+    animation-name: apppear;
+    animation-duration: 4.6s;
 }
 
 img{
     max-width: 100%;
     width: 600px;
     height: auto;
+    margin-left: 52%;
+    margin-top: -32%;
+    animation-name: apppear;
+    animation-duration: 4.6s;
 }
 
-.home-text h5{
-    color: #fff;
-    font-size: 25px;
-    font-weight: 500;
-    margin: 0 0 20px;
+.socials-list {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    flex-direction: column;
+    margin-left: 104.5%;
+    margin-top: -61%;
+    gap: 76px;
+    animation-name: apppear;
+    animation-duration: 4.6s;
 }
 
-.home-text h1{
-    font-size: large;
-    font-weight: 700;
-    line-height: 1;
-    margin: 0 0 20px;
-}
 
-.home-text h6{
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 25px;
-}
-
-.home-text p{
-    max-width: 470px;
-    font-weight: 300;
-    line-height: 2rem;
-    margin-bottom: 1.5rem;
-    color: #fff;
-}
 
 /*my code*/
 
@@ -452,6 +465,101 @@ header{
 
 
 
+.site-footer {
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    margin-top: 29%;
+    margin-bottom: 100px;
+    animation-name: apppear;
+    animation-duration: 4.6s;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-logo {
+    font-size: 24px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+.footer-one {
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+
+}
+
+.logoDescription {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+.footer-two {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+
+}
+
+.emailAndSubmit {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.newsletterDescription {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.emailInput {
+    margin-top: 10px;
+    margin-right: 5px;
+    padding: 10px;
+    padding-right: 80px;
+    border: 0;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.submitButton {
+    margin-top: 10px;
+    margin-left: 5px;
+    border: none;
+    padding: 10px 30px;
+    background-color: white;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.submitButton:hover {
+    background-color: #daa520;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.submitButton:active {
+    background-color: #886714;
+    transition-duration: 0s;
+    transform: translateY(4px);
+}
 
 
 
