@@ -573,6 +573,46 @@ header{
         display: block;
     }
 
+    .intro {
+        width: 107%;
+        animation-name: apppear;
+        animation-duration: 4.6s;
+        margin-top: 13%;
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
+        width: 600px;
+        height: auto;
+        margin-left: 0%;
+        margin-top: 0%;
+        animation-name: apppear;
+        animation-duration: 4.6s;
+    }
+
+    .socials-list {
+        display: flex;
+        flex-direction: row;
+        margin-left: 1%;
+        margin-top: 4%;
+        gap: 20px;
+        animation-name: apppear;
+        animation-duration: 4.6s;
+    }
+
+    .containerforsoc {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .textwrap {
+        color: rgb(255, 255, 255);
+        position: absolute;
+        margin-top: -250%;
+    }
+
     .category{
         position: fixed;
         left: -100%;
@@ -583,6 +623,7 @@ header{
         width: 100%;
         text-align: center;
         transition: 0.3s;
+        display: none;
     }
 
     .item{
