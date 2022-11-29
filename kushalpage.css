@@ -12,6 +12,16 @@ body{
 }
 
 
+.annn {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 16.5%;
+    height: 104%;
+    width: 85%;
+    margin-left: -2%;
+}
+
 
 .container1 {
     width: 100%;
@@ -27,7 +37,6 @@ body{
 .textwrap {
     color: rgb(255, 255, 255);
     position: absolute;
-   margin-bottom: 165%;
 }
 
 
@@ -588,12 +597,6 @@ header{
         animation-name: apppear;
         animation-duration: 4.6s;
         display: contents;
-    }
-
-    .textwrap {
-        color: rgb(255, 255, 255);
-        position: absolute;
-        margin-top: -250%;
     }
 
     .category{
