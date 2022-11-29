@@ -674,7 +674,7 @@ header{
     }
 }
 
-@media only screen and (max-width: 972.8px) {
+@media only screen and (max-width: 988px) {
     .getstar {
         display: none;
     }
