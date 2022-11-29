@@ -194,7 +194,7 @@ body{
     animation-duration: 4.6s;
     margin-top: 13%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .name {
