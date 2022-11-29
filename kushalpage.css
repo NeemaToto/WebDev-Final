@@ -197,6 +197,48 @@ body{
     flex-direction: column;
 }
 
+.getstar {
+    width: 100%;
+    animation-name: apppear;
+    animation-duration: 4.6s;
+    height: 34%;
+    display: flex;
+    justify-content: center;
+}
+
+#nice {
+    animation: blink1 0.8s linear 0.7s, blink1 0.8s linear 2.2s;
+    animation-iteration-count: infinite;
+    opacity: 0;
+}
+
+@keyframes blink1 {
+    0% {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 100%;        
+    }
+
+    19% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 100%;
+    }
+
+    99% {
+        opacity: 100%;
+        
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
 .name {
     margin-top: 10px;
     margin-bottom: 0px;
@@ -473,7 +515,7 @@ header{
     background-color: black;
     width: 100%;
     height: 200px;
-    margin-top: 14%;
+    margin-top: -33%;
     margin-bottom: 100px;
     animation-name: apppear;
     animation-duration: 4.6s;
@@ -582,6 +624,10 @@ header{
         animation-name: apppear;
         animation-duration: 4.6s;
         margin-top: 13%;
+    }
+
+    .getstar {
+        display: none;
     }
 
     .bodod {
