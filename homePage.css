@@ -319,7 +319,7 @@ header {
     transition: transform .2s;
 }
 
-.img-box:hover {
+.img-box img:hover {
     box-shadow: rgba(246, 210, 3, 0.268) 0px 3px 8px;
     transform: scale(1.08);
 }
