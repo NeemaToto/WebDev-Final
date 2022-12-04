@@ -284,11 +284,15 @@ body{
 
 .conn {
     display: flex;
-    width: 55%;
     justify-content: center;
     height: 694px;
     animation-name: apppear;
     animation-duration: 4.6s;
+}
+
+.profile {
+    width: auto;
+    height: auto;
 }
 
 .no {
