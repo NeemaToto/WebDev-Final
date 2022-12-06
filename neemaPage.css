@@ -220,7 +220,6 @@ a {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
-
 }
 
 .breadtrail {
@@ -254,6 +253,7 @@ a {
     display: flex;
     padding: 0px;
     gap: 20px;
+    z-index: 1;
 }
 
 .fa-facebook-f:hover{
@@ -274,7 +274,7 @@ a {
 }
 
 .portrait {
-    border-radius: 10px;
+    border-radius: 20px;
     width: 100%;
     max-width: 400px;
     height: auto;
@@ -304,6 +304,7 @@ a {
     align-items: flex-start;
     margin-top: 50px;
     margin-bottom: 50px;
+    
 }
 
 .footer-logo {
@@ -317,7 +318,6 @@ a {
     display: flex;
     flex-direction: column;
     margin-right: 80px;
-
 }
 
 .logoDescription {
