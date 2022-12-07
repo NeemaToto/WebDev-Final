@@ -319,6 +319,13 @@ a {
     background-color: #daa520;
     transition-duration: 0.2s
 }
+
+.explore-button:active {
+    background-color: #886714;
+    transition-duration: 0s;
+    transform: translateY(4px);
+}
+
 .socials-list {
     list-style: none;
     display: flex;
@@ -361,6 +368,98 @@ a {
 .hobby-list{
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
+}
+
+.hobby-pictures{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.hobby-img{
+    display: block;
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.img-container{
+    position: relative;
+    width: 400px;
+}
+
+.hobby-img-overlay{
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 15px;
+    transition: opacity 0.5s;
+    user-select: none;
+    opacity: 1;
+}
+
+.hobby-img-overlay>* {
+	transform: translateY(20px);
+	transition: transform 0.5s;
+}
+
+.hobby-img-overlay:hover{
+    opacity: 0;
+}
+
+.hobby-img-overlay--blur{
+    backdrop-filter: blur(2px);
+}
+
+.hobby-img-overlay:hover>*{
+    transform: translateY(0);
+}
+
+.hobby-img-title{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.hobby-img-description{
+    font-size: 24px;
+    font-weight: 300;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.work-button{
+    border: none;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.work-button:hover{
+    background-color: #daa520;
+    transition-duration: 0.2s
+}
+
+.work-button:active {
+    background-color: #886714;
+    transition-duration: 0s;
+    transform: translateY(4px);
 }
 /*Footer*/
 .site-footer {
