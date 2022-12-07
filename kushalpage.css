@@ -11,6 +11,29 @@ body{
     margin-right: 10%;
 }
 
+.g {
+    font-size: 70px;
+    color: #daa520;
+}
+
+.h {
+    font-size: 33px;
+}
+
+.hobbpers {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+}
+
+.hobb {
+    width: 50%;
+    text-align: center;
+    border: none;
+    border-top: 3px solid #daa520;
+    border-left: 3px solid #daa520;
+}
+
 .kkk {
     animation-name: apppear;
     animation-duration: 4.6s;
@@ -23,6 +46,14 @@ body{
     width: 100%;
 }
 
+.sns-list {
+    display: flex;
+    flex-direction: column;
+    gap: 129px;
+    height: 100%;
+    justify-content: center;
+    list-style: none;
+}
 
 .ok {
     position: fixed;
@@ -311,6 +342,7 @@ body{
     justify-content: flex-start;
     margin-top: 5%;
     align-items: center;
+    border: none;
 }
 
 .portcont1 {
@@ -750,6 +782,30 @@ header{
 
     .getstar {
         display: none;
+    }
+
+    .hobbpers {
+        display: flex;
+        flex-direction: column;
+        margin-top: 4%;
+    }
+
+    .sns-list {
+        display: flex;
+        flex-direction: row;
+        gap: 129px;
+        height: 100%;
+        justify-content: center;
+        margin-left: -5%;
+        list-style: none;
+    }
+
+    .hobb {
+        width: 100%;
+        text-align: center;
+        border: none;
+        border-top: 3px solid #daa520;
+        border-left: 3px solid #daa520;
     }
 
     .bodod {
