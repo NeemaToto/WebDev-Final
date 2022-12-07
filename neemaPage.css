@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bodoni+Moda:opsz,wght@6..96,400;6..96,700&family=Montserrat+Alternates:wght@200;300&family=Orbitron:wght@400;700&family=Poppins:wght@200;300;500&family=Roboto:wght@100;300;500&family=Yeseva+One&display=swap');
-html{
+
+html {
     scroll-behavior: smooth;
 }
+
 body {
     background-color: black;
     color: white;
@@ -217,7 +219,7 @@ a {
 
 /*Main Body Content*/
 
-    /*Section 01*/
+/*Section 01*/
 .introduction {
     display: flex;
     flex-direction: row;
@@ -230,11 +232,11 @@ a {
     font-weight: 300;
 }
 
-.meet-the-team{
+.meet-the-team {
     margin-right: -60px;
 }
 
-.meet-the-team h1{
+.meet-the-team h1 {
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     font-size: 67px;
@@ -273,38 +275,38 @@ a {
     box-shadow: -6px 6px 0px #daa520;
 }
 
-.greeting{
+.greeting {
     font-size: 70px;
     margin: 0;
 }
 
-.intro-description{
+.intro-description {
     font-family: 'Poppins', sans-serif;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 }
 
-.greeting-name{
+.greeting-name {
     font-size: 30px;
-    margin-top:-5px;
+    margin-top: -5px;
 }
 
-.greeting-desc{
+.greeting-desc {
     font-size: 25px;
     font-weight: 300;
 }
 
-.intro-description{
+.intro-description {
     font-weight: 300;
     display: flex;
 }
 
-.intro-button{
+.intro-button {
     font-size: 20px;
 }
 
-.explore-button{
+.explore-button {
     border: none;
     padding: 10px;
     width: 110px;
@@ -315,7 +317,7 @@ a {
     cursor: pointer;
 }
 
-.explore-button:hover{
+.explore-button:hover {
     background-color: #daa520;
     transition-duration: 0.2s
 }
@@ -333,50 +335,54 @@ a {
     gap: 20px;
 }
 
-.fa-facebook-f:hover{
+.fa-facebook-f:hover {
     color: #daa520;
     transition-duration: 0.2s
-}
-.fa-instagram:hover{
-    color: #daa520;
-    transition-duration: 0.2s
-}
-.fa-linkedin:hover{
-    color: #daa520;
-    transition-duration: 0.2s
-}
-.fa-envelope:hover{
-    color: #daa520;
-    transition-duration: 0.2s
-}
-    /*Section 02*/
-.portfolioPage2{
-   margin-top: 100px;
 }
 
-.hobbies-text{
+.fa-instagram:hover {
+    color: #daa520;
+    transition-duration: 0.2s
+}
+
+.fa-linkedin:hover {
+    color: #daa520;
+    transition-duration: 0.2s
+}
+
+.fa-envelope:hover {
+    color: #daa520;
+    transition-duration: 0.2s
+}
+
+/*Section 02*/
+.portfolioPage2 {
+    margin-top: 100px;
+}
+
+.hobbies-text {
     font-size: 50px;
     font-family: 'Orbitron', sans-serif;
     color: #daa520;
 }
 
-.hobbies-description{
+.hobbies-description {
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
 }
 
-.hobby-list{
+.hobby-list {
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
 }
 
-.hobby-pictures{
+.hobby-pictures {
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
 }
 
-.hobby-img{
+.hobby-img {
     display: block;
     height: 400px;
     width: 400px;
@@ -384,17 +390,17 @@ a {
     border-radius: 15px;
 }
 
-.img-container{
+.img-container {
     position: relative;
     width: 400px;
 }
 
-.hobby-img-overlay{
+.hobby-img-overlay {
     position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.85);
@@ -411,35 +417,35 @@ a {
 }
 
 .hobby-img-overlay>* {
-	transform: translateY(20px);
-	transition: transform 0.5s;
+    transform: translateY(20px);
+    transition: transform 0.5s;
 }
 
-.hobby-img-overlay:hover{
+.hobby-img-overlay:hover {
     opacity: 0;
 }
 
-.hobby-img-overlay--blur{
+.hobby-img-overlay--blur {
     backdrop-filter: blur(2px);
 }
 
-.hobby-img-overlay:hover>*{
+.hobby-img-overlay:hover>* {
     transform: translateY(0);
 }
 
-.hobby-img-title{
+.hobby-img-title {
     font-size: 30px;
     font-weight: 500;
 }
 
-.hobby-img-description{
+.hobby-img-description {
     font-size: 24px;
     font-weight: 300;
     padding-left: 40px;
     padding-right: 40px;
 }
 
-.work-button{
+.work-button {
     border: none;
     padding: 10px;
     width: 150px;
@@ -451,7 +457,7 @@ a {
     margin-top: 30px;
 }
 
-.work-button:hover{
+.work-button:hover {
     background-color: #daa520;
     transition-duration: 0.2s
 }
@@ -461,6 +467,55 @@ a {
     transition-duration: 0s;
     transform: translateY(4px);
 }
+
+/*Section 03*/
+.portfolioPage3 {
+    margin-top: 100px;
+}
+
+.websites-content h1{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 67px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.resume-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top-half{
+    display: flex;
+    flex-direction: row;
+}
+
+.websites-content{
+    display: flex;
+}
+
+.website-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.website-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper{
+    width: 500px;
+    height: 500px;
+}
+
+.swiper-slide img{
+    width: 100%;
+
+}
+
 /*Footer*/
 .site-footer {
     background-color: black;
@@ -480,7 +535,7 @@ a {
     align-items: flex-start;
     margin-top: 50px;
     margin-bottom: 50px;
-    
+
 }
 
 .footer-logo {
@@ -564,7 +619,7 @@ a {
         display: block;
     }
 
-    .meet-the-team{
+    .meet-the-team {
         display: none;
     }
 }

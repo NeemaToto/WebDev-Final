@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="neemaPage.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <title>Neema Totonchi's Portfolio</title>
 </head>
 
@@ -41,86 +42,145 @@
 </header>
 
 <!--Main body Content-->
+
 <body>
-    <!--Intro Content-->
-<section class="portfolio1" id="page1">
-<div class="introduction">
-   <div class="meet-the-team">
-    <h1>Meet the Team</h1>
-   </div>
-    <div class="picture-name-socials"> 
-        <h5 class="breadtrail">Home > Meet the team > Neema Totonchi</h5>
-        <img class="portrait" src="neema_img\neemaPortrait.png" alt="">
-        <h1 class="h1name">Neema Totonchi</h1>
-        <h2 class="h2position">Web Developer and Designer</h2>
-        <ul class="socials-list">
-            <a href="#"><li><i class="fa fa-facebook-f" style="font-size:30px"></i></li></a>
-            <a href="#"><li><i class="fa fa-instagram" style="font-size:30px"></i></li></a>
-            <a href="#"><li><i class="fa fa-linkedin" style="font-size:30px"></i></li></a>
-            <a href="#"><li><i class="fa fa-envelope" style="font-size:30px"></i></li></a>
-        </ul>
-    </div>
+    <!--Intro Content//Section 1-->
+    <section class="portfolio1" id="page1">
+        <div class="introduction">
+            <div class="meet-the-team">
+                <h1>Meet the Team</h1>
+            </div>
+            <div class="picture-name-socials">
+                <h5 class="breadtrail">Home > Meet the team > Neema Totonchi</h5>
+                <img class="portrait" src="neema_img\neemaPortrait.png" alt="">
+                <h1 class="h1name">Neema Totonchi</h1>
+                <h2 class="h2position">Web Developer and Designer</h2>
+                <ul class="socials-list">
+                    <a href="#">
+                        <li><i class="fa fa-facebook-f" style="font-size:30px"></i></li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa fa-instagram" style="font-size:30px"></i></li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa fa-linkedin" style="font-size:30px"></i></li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa fa-envelope" style="font-size:30px"></i></li>
+                    </a>
+                </ul>
+            </div>
 
-    <div class="intro-description">
-           <h1 class="greeting">Hey there!</h1>
-           <p class="greeting-name"> My name is Neema Totonchi.</p>
-           <p class="greeting-desc">I am a Web Developer and Designer<br>also experienced with
-            User Interface Design. </p> 
-            <div class="intro-button">
-                <p>Press the button below and see my work</p>
-            <a href="#page2">
-                <button type="button" class="explore-button">Explore</button>
-            </a>
-            </div>
-    </div>
-</div>
-</section>
-
-<section class="portfolioPage2" id="page2">
-    <div class="hobbies">
-        <h1 class="hobbies-text">Hobbies</h1>
-        <p class="hobbies-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>
-            Omnis officia distinctio praesentium libero quos temporibus labore<br>
-            voluptas iusto magni eligendi! Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br>
-            Adipisci, obcaecati.
-        </p>
-        <li class="hobby-list">Painting miniatures</li>
-        <li class="hobby-list">Gaming</li>
-        <li class="hobby-list">Drawing</li>
-        <p class="hobbies-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eum, quae consectetur illum<br>
-            earum minus ut hic autem officiis natus.</p>
-        <div class="hobby-pictures">
-            <div class="img-container">
-                <img class="hobby-img" src="neema_img\warhammer.png" alt="">
-                <div class="hobby-img-overlay hobby-img-overlay--blur">
-                    <div class="hobby-img-title">Warhammer 40k Miniatures</div>
-                    <p class="hobby-img-description">I have hand painted these mini figures with precise accuracy.</p>
-                </div>
-            </div>
-            <div class="img-container">
-                <img class="hobby-img" src="neema_img\end.jpg" alt="">
-                <div class="hobby-img-overlay hobby-img-overlay--blur">
-                    <div class="hobby-img-title">Elden Ring</div>
-                    <p class="hobby-img-description">A game where I can draw inspiration from when drawing for fun.</p>
-                </div>
-            </div>
-            <div class="img-container">
-                <img class="hobby-img" src="neema_img\painting.png" alt="">
-                <div class="hobby-img-overlay hobby-img-overlay--blur">
-                    <div class="hobby-img-title">Escape from Light</div>
-                    <p class="hobby-img-description">Painted within an astonishing 5 minutes, this painting has caught the attention of many artists.</p>
+            <div class="intro-description">
+                <h1 class="greeting">Hey there!</h1>
+                <p class="greeting-name"> My name is Neema Totonchi.</p>
+                <p class="greeting-desc">I am a Web Developer and Designer<br>also experienced with
+                    User Interface Design. </p>
+                <div class="intro-button">
+                    <p>Press the button below and see my work</p>
+                    <a href="#page2">
+                        <button type="button" class="explore-button">Explore</button>
+                    </a>
                 </div>
             </div>
         </div>
-        <a href="#page3">
-            <button type="button" class="work-button">See my work</button>
-        </a>
-    </div>
-</section>
+    </section>
 
-<section class="portfolioPage3" id="page3">
+    <!--Hobbies Content//Section 2-->
+    <section class="portfolioPage2" id="page2">
+        <div class="hobbies">
+            <h1 class="hobbies-text">Hobbies</h1>
+            <p class="hobbies-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>
+                Omnis officia distinctio praesentium libero quos temporibus labore<br>
+                voluptas iusto magni eligendi! Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br>
+                Adipisci, obcaecati.
+            </p>
+            <li class="hobby-list">Painting miniatures</li>
+            <li class="hobby-list">Gaming</li>
+            <li class="hobby-list">Drawing</li>
+            <p class="hobbies-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eum, quae
+                consectetur illum<br>
+                earum minus ut hic autem officiis natus.</p>
+            <div class="hobby-pictures">
+                <div class="img-container">
+                    <img class="hobby-img" src="neema_img\warhammer.png" alt="">
+                    <div class="hobby-img-overlay hobby-img-overlay--blur">
+                        <div class="hobby-img-title">Warhammer 40k Miniatures</div>
+                        <p class="hobby-img-description">I have hand painted these mini figures with precise accuracy.
+                        </p>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <img class="hobby-img" src="neema_img\end.jpg" alt="">
+                    <div class="hobby-img-overlay hobby-img-overlay--blur">
+                        <div class="hobby-img-title">Elden Ring</div>
+                        <p class="hobby-img-description">A game where I can draw inspiration from when drawing for fun.
+                        </p>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <img class="hobby-img" src="neema_img\painting.png" alt="">
+                    <div class="hobby-img-overlay hobby-img-overlay--blur">
+                        <div class="hobby-img-title">Escape from Light</div>
+                        <p class="hobby-img-description">This is the famous "Escape the Light"
+                            painting I created.</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#page3">
+                <button type="button" class="work-button">See my work</button>
+            </a>
+        </div>
+    </section>
 
-</section>
+    <!--Resume Content//Section 3-->
+    <section class="portfolioPage3" id="page3">
+        <div class="resume-content">
+            <!--Top Half Box-->
+            <div class="top-half">
+                <div class="websites-content">
+                    <h1>My Websites</h1>
+                    <div class="website-container">
+                        <div class="website-one">
+                            <!-- Slider main container -->
+                            <div class="swiper">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                    <!-- Slides -->
+                                    <div class="swiper-slide"><img src="neema_img\MetaGalHome.png" alt=""></div>
+                                    <div class="swiper-slide"><img src="neema_img\MetaGalLearn.png" alt=""></div>
+                                    <div class="swiper-slide"><img src="neema_img\MetaGalCart.png" alt=""></div>
+                                    <div class="swiper-slide"><img src="neema_img\MetaGalProfile.png" alt=""></div>
+                                </div>
+                                <!-- If we need pagination -->
+                                <div class="swiper-pagination"></div>
+
+                                <!-- If we need navigation buttons -->
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </div>
+                    
+                     <div class="website-two">
+                        Hello this is website 2 this is website 2<br>
+                        Hello this is website 2 this is website 2<br>
+                        Hello this is website 2 this is website 2<br>
+                        Hello this is website 2 this is website 2<br>
+                     </div>
+                   </div>
+                </div>
+                <div class="education-content"></div>
+            </div>
+            <!--Bottom Half Box-->
+            <div class="bottom-half">
+                Hello mnonkey monkey monkey monkey penut budi<br>
+                Hello mnonkey monkey monkey monkey penut budi<br>
+                Hello mnonkey monkey monkey monkey penut budi<br>
+            </div>
+
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    </section>
 
 </body>
 
@@ -139,8 +199,8 @@
             <div class="newsletterDescription">Sign up for DTCO. emails:</div>
             <div class="emailAndSubmit">
                 <form>
-                    <input class="emailInput" type="email" name="emailBar" placeholder="Enter your email" id="" 
-                        required oninvalid="this.setCustomValidity('Invalid email')" oninput="this.setCustomValidity('')"/>
+                    <input class="emailInput" type="email" name="emailBar" placeholder="Enter your email" id="" required
+                        oninvalid="this.setCustomValidity('Invalid email')" oninput="this.setCustomValidity('')" />
                     <button type="submit" class="submitButton">Sumbit</button>
                 </form>
             </div>
