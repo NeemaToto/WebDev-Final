@@ -356,6 +356,7 @@ body{
 
 .par1 {
     text-align: center;
+    font-size: 103%;
 }
 
 .port1 {
@@ -380,17 +381,7 @@ body{
     height: auto;
 }
 
-.dis2 {
-    width: 30%;
-    height: auto;
-}
-
-.dis3 {
-    width: 30%;
-    height: auto;
-}
-
-.te {
+.te1 {
     font-size: 131%;
 }
 
