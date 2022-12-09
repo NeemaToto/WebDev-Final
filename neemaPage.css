@@ -536,6 +536,7 @@ header {
 
 .swiper-slide img {
     width: 100%;
+    border-radius: 15px;
 }
 
 .swiper .swiper-button-prev,
@@ -584,6 +585,7 @@ header {
     width: 350px;
     height: fit-content;
     user-select: none;
+    border-radius: 15px;
 }
 
 .website-two-description {
@@ -626,7 +628,6 @@ header {
 .bottom-half {
     display: flex;
     flex-direction: row;
-    flex-grow: 3;
     flex-wrap: wrap;
     height: fit-content;
     align-items: center;
@@ -672,15 +673,12 @@ header {
     justify-content: flex-start;
 }
 
-.design-two-img-container {
-    margin-right: 10px;
-}
 
 .design-two-img {
     width: 350px;
-    height: 300px;
-    object-fit: contain;
+    height: fit-content;
     user-select: none;
+    border-radius: 15px;
 }
 
 .design-two-description {
