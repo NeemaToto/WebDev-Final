@@ -97,7 +97,7 @@
             </p>
             <li class="hobby-list">Painting miniatures</li>
             <li class="hobby-list">Gaming</li>
-            <li class="hobby-list">Drawing</li>
+            <li class="hobby-list">Painting</li>
             <p class="hobbies-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eum, quae
                 consectetur illum<br>
                 earum minus ut hic autem officiis natus.</p>
@@ -142,46 +142,77 @@
                     <h1>My Websites</h1>
                     <div class="website-container">
                         <div class="website-one">
-                            <!-- Slider main container -->
                             <div class="swiper">
-                                <!-- Additional required wrapper -->
                                 <div class="swiper-wrapper">
-                                    <!-- Slides -->
                                     <div class="swiper-slide"><img src="neema_img\MetaGalHome.png" alt=""></div>
                                     <div class="swiper-slide"><img src="neema_img\MetaGalLearn.png" alt=""></div>
                                     <div class="swiper-slide"><img src="neema_img\MetaGalCart.png" alt=""></div>
                                     <div class="swiper-slide"><img src="neema_img\MetaGalProfile.png" alt=""></div>
                                 </div>
-                                <!-- If we need pagination -->
                                 <div class="swiper-pagination"></div>
-
-                                <!-- If we need navigation buttons -->
                                 <div class="swiper-button-prev"></div>
                                 <div class="swiper-button-next"></div>
                             </div>
+                            <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+                            <script>
+                                const swiper = new Swiper('.swiper', {
+                                    loop: true,
+                                    effect: 'cube',
+                                    cubeEffect: {
+                                        shadow: false,
+                                        slideShadows: false,
+                                    },
+                                    pagination: {
+                                        el: '.swiper-pagination',
+                                        clickable: true,
+                                    },
+                                    navigation: {
+                                        nextEl: '.swiper-button-next',
+                                        prevEl: '.swiper-button-prev',
+                                    },
+                                });
+                            </script>
+                            <div class="website-one-description">
+                                <p class="website-description">
+                                    MetaGal was created to be an NFT Marketplace. We carefully designed the
+                                    website to fit the needs of users. Through the slides,
+                                    you can see the Home Page, Learn Page, Cart Page, and Profile Page.
+                                </p>
+                            </div>
                         </div>
-                    
-                     <div class="website-two">
-                        Hello this is website 2 this is website 2<br>
-                        Hello this is website 2 this is website 2<br>
-                        Hello this is website 2 this is website 2<br>
-                        Hello this is website 2 this is website 2<br>
-                     </div>
-                   </div>
+                        <div class="website-two">
+                            <div class="website-two-img">
+                                <img class="websiteTwo-img" src="neema_img\WebsiteExampleTwo.png">
+                            </div>
+                            <div class="website-two-description">
+                                <p class="website-description">
+                                    My team and I had designed multiple portfolio pages for people in many fields.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita corrupti ullam
+                                    minus eveniet deleniti in, magni.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="education-content"></div>
+                <div class="education-content">
+                    <h1 class="education-header">Education</h1>
+                    <h2 class="education-subheader">BCIT,<br>Digital Design and Development<br> 2022-2024</h2>
+                    <p class="education-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
+                        aperiam ducimus? Voluptates<br>
+                        impedit quasi necessitatibus similique tenetur velit facilis nisi debitis eveniet sunt corporis,
+                        dolorem esse labore<br>
+                        reiciendis omnis rerum ducimus blanditiis quidem assumenda laudantium. Culpa similique, facere
+                        expedita suscipit sequi<br>
+                        saepe dolorem nobis nulla eum, impedit dolore?</p>
+                </div>
             </div>
             <!--Bottom Half Box-->
             <div class="bottom-half">
-                Hello mnonkey monkey monkey monkey penut budi<br>
-                Hello mnonkey monkey monkey monkey penut budi<br>
-                Hello mnonkey monkey monkey monkey penut budi<br>
+
             </div>
-
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     </section>
-
 </body>
 
 <!--Footer-->
