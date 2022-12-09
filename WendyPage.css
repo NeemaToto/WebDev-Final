@@ -233,7 +233,7 @@ h1 {
     margin-top: 0;
 }
 
-.content {
+.content{
     font-size: 1.7vw;
     font-family: 'Poppins', 'sans-serif';
     font-weight: 200;}
@@ -306,6 +306,45 @@ h2 {
     margin-bottom: 0;
     font-size: 3vw;
 }
+
+#hobby1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#hobby2 {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 86px;
+}
+
+#hobby {
+    margin-top: 60px;
+}
+
+.hobby-desc {
+    margin-top: 0;
+}
+
+#img-hobby {
+    width: 100%;
+    max-width: 330px;
+}
+
+
+#hobby-desc-all1 {
+    flex-basis: 75%;
+}
+
+#hobby-desc-all2 {
+    flex-basis: 67%;
+}
+
+
 
 
 
@@ -432,5 +471,22 @@ h2 {
     display: flex;
     flex-direction: column;
 }
+
+#hobby1 {
+    display: flex;
+    flex-direction: column;
+}
  
+#hobby2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#img-hobby {
+    width: 100%;
+    max-width: 350px;
+    margin-top: 7%;
+    display: flex;
+}
+
 }
