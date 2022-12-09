@@ -307,6 +307,18 @@ header{
     font-weight: 300;
     width: 100%;
     color: rgba(255, 255, 255, 0.802);
+    margin-bottom: 5%;
+}
+
+.hire-me{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9vw;
+    font-weight: 300;
+    color:rgba(255, 255, 255, 0.802);
+}
+
+.hire-me:hover{
+    color:rgb(222, 173, 222);
 }
 
 /**Education and Hobby*/
@@ -330,14 +342,18 @@ header{
     height: auto;
 }
 
-.edu_hobby h3{
+.right-col{
+    text-align: right;
+}
+
+.right-col h3{
     font-family: 'Bodoni Moda', serif;
     font-size: 1.9vw;
     font-weight: 500;
 }
 
-.right-col{
-    text-align: right;
+.right-col h3:hover{
+    color: goldenrod;
 }
 
 .right-col p{
@@ -420,6 +436,27 @@ header{
     margin-bottom: 5%;
     padding: 15% 20%;
     text-align: center;
+}
+
+.project-section-desc:hover{
+    animation-name: color-change;
+    animation-duration: 1.5s;
+}
+
+@keyframes color-change{
+    0%{
+        color: rgb(255, 240, 202);
+    }20%{
+        color: rgb(255, 215, 115);
+    }40%{
+        color: rgb(255, 95, 191);
+    }60%{
+        color: rgb(244, 149, 201);
+    }80%{
+        color: rgb(216, 121, 221);
+    }100%{
+        color: rgb(222, 173, 222);
+    }
 }
 
 .project-section h1{
@@ -672,10 +709,10 @@ header{
     }
     
     .content p{
-        font-size: 25px;
+        display: none;
     }
-
-    .content span{
+    
+    .hire-me{
         display: none;
     }
 
@@ -684,7 +721,11 @@ header{
         flex-direction: column;
     }
 
-    .edu_hobby p{
+    .edu_hobby h3, .column h2, .right-col h2{
+        font-size: 25px;
+    }
+
+    .services p, .img-box p, .right-col p{
         font-size: 20px;
     }
 
@@ -695,5 +736,19 @@ header{
     .projects{
         display: flex;
         flex-direction: column;
+        gap: 20px;
+    }
+
+    .project-section p{
+        font-size: 20px;
+    }
+    
+    .project-section-desc p{
+        display:none;
+    }
+
+    .project-section-desc h1{
+        font-size: 25px;
     }
 }
+
