@@ -302,6 +302,7 @@ header {
     display: grid;
     grid-template:
         "a b c";
+    grid-auto-columns: 1fr;
     gap: 50px;
     align-items: center;
     font-family: 'Roboto', sans-serif;
@@ -314,7 +315,7 @@ header {
 .img-box img {
     border-radius: 10px;
     width: 100%;
-    max-width: 850px;
+    max-width: 750px;
     height: auto;
     transition: transform .2s;
 }
