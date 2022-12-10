@@ -354,7 +354,7 @@ header {
 }
 
 .right-col h3:hover{
-    color: goldenrod;
+    color: rgb(245, 185, 237);
 }
 
 .right-col p{
@@ -446,17 +446,17 @@ header {
 
 @keyframes color-change{
     0%{
-        color: rgb(255, 240, 202);
-    }20%{
-        color: rgb(255, 215, 115);
-    }40%{
-        color: rgb(255, 95, 191);
-    }60%{
-        color: rgb(244, 149, 201);
-    }80%{
-        color: rgb(216, 121, 221);
-    }100%{
         color: rgb(222, 173, 222);
+    }20%{
+        color: rgb(0, 0, 0);
+    }40%{
+        color: rgb(245, 185, 237);
+    }60%{
+        color: rgb(0, 0, 0);
+    }80%{
+        color: rgb(214, 128, 219);
+    }100%{
+        color: rgb(0, 0, 0);
     }
 }
 
